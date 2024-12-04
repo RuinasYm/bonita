@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Key Generator</title>
+  <link rel="stylesheet" href="/zerver/protect/vip/home/css/styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Key Generator</h1>
+    <p>Your generated key is:</p>
+    <div class="key" id="key" data-key="<%= key %>">
+      <i class="fas fa-lock lock-icon"></i> <%= key %>
+    </div>
+    
+    <button class="copy-button" id="copyButton">Copy Key</button>
+    <div id="copySuccess" class="copy-success hidden"> </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Atticus. All rights reserved.</p>
+  </footer>
+</body>
+<script src="/zerver/protect/vip/home/js/main.js"></script>
+</html>
+  
