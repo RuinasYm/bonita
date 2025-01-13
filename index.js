@@ -33,7 +33,7 @@ app.get('/@%23123!%24%25-vip-access/%3A%3A%3F%3F%26%26--%5B%5BHome%5D%5D%3D%3D%2
     const key = generateKey();
 
     // Los Guild IDs a los que se debe agregar la clave
-    const guildIDs = ['1311143164035338332', '1244738279857717318'];
+    const guildIDs = ['1311143164035338332', '1244738279857717318', '1324146797530189974'];
 
     try {
       // Guardar la clave en la base de datos para esos guilds
