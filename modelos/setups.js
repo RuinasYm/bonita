@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const setupSchema = new mongoose.Schema({
     guildID: { type: String },
     verifykey: { type: [String], default: [] },
+    verifykey2: { type: [String], default: [] },
 
 })
 
